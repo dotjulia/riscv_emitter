@@ -8,3 +8,7 @@ edition = "2021"
 [dependencies]
 ux = { git = "https://github.com/kjetilkjeka/uX.git", rev = "1081930" }
 derive_builder = "0.11.2"
+
+[dev-dependencies]
+faerie = "0.16.0"
+target-lexicon = "0.11.2"
