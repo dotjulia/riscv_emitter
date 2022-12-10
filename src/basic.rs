@@ -272,6 +272,7 @@ implinto!(JOpcode);
  *  S(B): store, comparison, branch
  *  U(J): jump, jump and link
  */
+#[derive(Copy, Clone, Debug)]
 pub struct PackedInstruction(u32);
 
 impl From<PackedInstruction> for u32 {
